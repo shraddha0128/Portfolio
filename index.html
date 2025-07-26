@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shraddha Chidrawar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+   <section id="home" class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Hi, I'm <span class="highlight">Shraddha Chidrawar</span></h1>
+      <p>A curious mind who enjoys learning new things, solving problems, and challenging myself.  
+         I'm always eager to grow, improve, and make a meaningful impact wherever I go.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn-glow">View My Work</a>
+        <a href="Shraddha Resume.pdf" class="btn-outline" target="_blank" download>Download Resume</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Shraddha's Profile Image" />
+    </div>
+  </div>
+</section>
+
+  </header>
+
+ 
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm someone who values creativity, learning, and constant growth. I believe in putting my best effort into whatever I do, and I'm passionate about building a purposeful journey ahead.</p>
+    <a href="Shraddha Resume.pdf" class="btn-glow" target="_blank">View My Resume</a>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A clean and responsive personal portfolio built using HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+     <div class="project-grid">
+      <div class="card">
+        <h3>E-Learning Website</h3>
+        <p>Built a dynamic E-learning platform for students to learn Java and Python. Features included user login, notes, 
+            video tutorials, quizzes, and an online code compiler.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-box">
+      <div class="skill-item"><img src="https://img.icons8.com/color/96/html-5.png" alt="HTML5"/><p>HTML5</p></div>
+      <div class="skill-item"><img src="https://img.icons8.com/color/96/css3.png" alt="CSS3"/><p>CSS3</p></div>
+      <div class="skill-item"><img src="https://img.icons8.com/color/96/javascript.png" alt="JavaScript"/><p>JavaScript</p></div>
+      <div class="skill-item"><img src="https://img.icons8.com/color/96/python.png" alt="Python"/><p>Python</p></div>
+      <div class="skill-item"><img src="https://img.icons8.com/color/96/mysql-logo.png" alt="MySQL"/><p>MySQL</p></div>
+      <div class="skill-item"><img src="https://img.icons8.com/color/96/java-coffee-cup-logo.png" alt="Java"/><p>Java</p></div>
+      <div class="skill-item"><img src="https://img.icons8.com/color/96/c-programming.png" alt="C"/><p>C</p></div>
+      <div class="skill-item"><img src="https://img.icons8.com/color/96/c-plus-plus-logo.png" alt="C++"/><p>C++</p></div>
+    </div>
+  </section>
+
+  <section id="education">
+  <h2 class="section-title">Education</h2>
+  <div class="education-timeline">
+    <div class="edu-card">
+      <h3>Bachelor of Computer Applications</h3>
+      <p class="institute">SNDT Women's University, Pune</p>
+      <p class="year">2023 – 2025</p>
+      <p class="details">Currently completed BCA with a focus on web development, data structures, and programming fundamentals. Actively involved in project work and learning new technologies.</p>
+    </div>
+    <div class="edu-card">
+      <h3>Diploma in Computer Engineering</h3>
+      <p class="institute">Rasiklal.M.Dhariwal Institute of Technology</p>
+      <p class="year">2019 – 2022</p>
+      <p class="details">Completed a diploma in Computer Engineering covering subjects like C/C++, Java, database management, and basic networking. Built strong foundations in core programming.</p>
+    </div>
+    
+  </div>
+</section>
+
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to work together or have any questions, feel free to send a message!</p>
+    <form class="contact-form" action="https://formspree.io/f/yourFormID" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn-glow">Send Message</button>
+    </form>
+  </section>
+
+   <div class="social-icons">
+    <a href="https://www.linkedin.com/in/shraddha-chidrawar-1a6b60258 " target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/shraddha0128" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="mailto:schidrawar524@gmail.com"><i class="fas fa-envelope"></i></a>
+  </div>
+
+  <footer>
+    <p>Made by Shraddha Chidrawar | © 2025</p>
+  </footer>
+
+  <button onclick="topFunction()" id="topBtn" title="Go to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
